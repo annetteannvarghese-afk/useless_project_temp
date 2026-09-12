@@ -74,15 +74,18 @@ For Software:
 
 ### Screenshots
 
-![Screenshot 1](<add-home-screen-screenshot-path-here>)
+<img width="1875" height="1028" alt="Screenshot 2026-09-12 064809" src="https://github.com/user-attachments/assets/4f6e4b6d-ba52-425c-bf0b-1ac59741a8ea" />
+
 
 *The Ant Trail Tracker home screen: a highly official portal for uploading evidence of suspicious ant activity.*
 
-![Screenshot 2](<add-analysis-screen-screenshot-path-here>)
+<img width="1887" height="1022" alt="Screenshot 2026-09-12 065003" src="https://github.com/user-attachments/assets/b2303253-dd59-446f-98a6-a1f8e83982c9" />
+
 
 *The investigation in progress, with essential scientific procedures such as “Counting tiny legs…” and “Consulting senior ants…”.*
 
-![Screenshot 3](<add-results-screen-screenshot-path-here>)
+<img width="878" height="887" alt="Screenshot 2026-09-12 065019" src="https://github.com/user-attachments/assets/560fb991-83ab-40f8-9ef2-bdb985a9514c" />
+
 
 *The completed Ant Traffic Report, showing detected ants, an inferred trail, direction, and traffic-level findings.*
 
