@@ -4,13 +4,12 @@
 
 ## Basic Details
 
-### Team Name: Ant Traffic Authority
+### Team Name: WaterFalls
 
 ### Team Members
 
-- Team Lead: [Your Name] - [Your College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [ Annette Ann Varghese] - [ Baselios mathews II  colleage of engineering  ]
+- Member 2: [Aarsha Raj S] - [Baselios mathews II  colleage of engineering ] 
 
 ### Project Description
 
@@ -90,11 +89,13 @@ For Software:
 
 *The home screen of Ant Trail Tracker, where users can begin a high-priority investigation into suspicious ant activity.*
 
-![Analysis Screen](screenshots/analysis-screen.png)
+<img width="1887" height="1022" alt="Screenshot 2026-09-12 065003" src="https://github.com/user-attachments/assets/d6505a7c-e8d1-4f30-93a2-6d1e35f57afb" />
+
 
 *The analysis screen shows funny loading messages such as “Counting tiny legs...” and “Consulting senior ants...”.*
 
-![Results Screen](screenshots/results-screen.png)
+<img width="878" height="887" alt="Screenshot 2026-09-12 065019" src="https://github.com/user-attachments/assets/e41756ab-5957-4d4c-bd26-2feabb5a482a" />
+
 
 *The final Ant Traffic Report displays detected ants, estimated trail direction, traffic status, and highly unnecessary official findings.*
 
@@ -152,9 +153,12 @@ Run the project locally using Flask and open:
 
 ## Team Contributions
 
-- [Your Name]: Built the Flask backend, project setup, and local server configuration.
-- [Name]: Developed the HTML, CSS, user interface, styling, and funny visual design.
-- [Name]: Built the JavaScript interactions, image-upload flow, analysis animations, and Ant Traffic Report display.
+- [Annette Ann Varghese]: Built the Flask backend, project setup, and local server configuration,the JavaScript interactions, image-upload flow, analysis animations, and Ant Traffic Report display.
+
+
+
+- [Aarsha Rah S]: Developed the HTML, CSS, user interface, styling, and funny visual design.
+
 
 ---
 
