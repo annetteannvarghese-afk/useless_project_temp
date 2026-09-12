@@ -85,7 +85,7 @@ For Software:
 
 ### Screenshots
 
-![Home Screen](screenshots/home-screen.png)
+image/Screenshot 2026-09-12 064809.png
 
 *The home screen of Ant Trail Tracker, where users can begin a high-priority investigation into suspicious ant activity.*
 
