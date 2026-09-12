@@ -72,3 +72,77 @@ Open [http://localhost:8000](http://localhost:8000) to begin the investigation.
 For Software:
 
 ### Screenshots
+
+<img width="1767" height="971" alt="image" src="https://github.com/user-attachments/assets/0d15133f-0e75-4373-9ea7-d14a4b076c7c" />
+
+
+*The Ant Trail Tracker home screen: a highly official portal for uploading evidence of suspicious ant activity.*
+
+<img width="1430" height="773" alt="Screenshot 2026-09-12 194855" src="https://github.com/user-attachments/assets/bb9222db-8031-4fe3-a942-ce5ecf2c0cc5" />
+
+
+*The investigation in progress, with essential scientific procedures such as “Counting tiny legs…” and “Consulting senior ants…”.*
+
+
+
+*The completed Ant Traffic Report, showing detected ants, an inferred trail, direction, and traffic-level findings.*
+
+### Diagrams
+
+```mermaid
+flowchart TD
+    A[📸 Upload suspicious ant photo] --> B[Image preprocessing]
+    B --> C[🐜 Detect visible ants]
+    C --> D[Analyse positions and trail pattern]
+    D --> E[🧭 Estimate likely direction]
+    E --> F[📊 Generate Ant Traffic Report]
+    F --> G[🚦 Declare a tiny highway situation]
+```
+
+*Workflow: the image is analysed for ant-like objects and trail patterns, then turned into a disproportionately official traffic report.*
+
+For Hardware:
+
+No hardware build, circuit, schematic, or component photos apply to this software project.
+
+### Project Demo
+
+#### Video
+
+[Add your demo video link here]
+
+*The demo should show uploading an ant image, the funny analysis/loading experience, and the final trail and traffic report.*
+
+#### Additional Demos
+
+- [Add deployed project link here]
+- [Add GitHub repository link here]
+- [Add presentation link here]
+
+## Limitations
+
+- **A single image cannot reliably determine true speed.** Video or multiple time-stamped frames are needed for meaningful speed estimates.
+- **Direction is an inference.** A photo may suggest a shared path but cannot prove where each ant came from or where it will go next.
+- Tiny, blurred, overlapping, hidden, or low-contrast ants can be difficult to detect.
+- Shadows, crumbs, and pixels with ambitions may be mistaken for ants.
+- The project analyses image patterns, not ant intentions, colony politics, or snack destinations.
+
+## Future Improvements
+
+- Add video and multi-frame tracking for real direction and speed estimates
+- Improve detection under different lighting conditions and ant sizes
+- Add an ant-congestion heatmap and live trail map
+- Add dramatic traffic-control audio
+- Add an “Interrogate the Ants” button
+
+## Team Contributions
+
+- Annette Ann Varghese: Developed the Ant Trail Tracker interface, upload flow, and playful Ant Traffic Report design.
+- Aarsha Raj S: Built the ant image-analysis logic, trail-direction detection, and result visualization.
+
+---
+
+Made with ❤️ at TinkerHub Useless Projects
+
+![TinkerHub](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![UselessProjects--26](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
