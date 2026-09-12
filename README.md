@@ -1,30 +1,35 @@
-<img width="1280" height="640" alt="Ant Trail Tracker banner" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
-
 # Ant Trail Tracker 🐜
 
 > **Because ants have places to be.**
 
 ## Basic Details
 
-### Team Name: [Your Team Name]
+### Team Name: Ant Traffic Authority
 
 ### Team Members
 
-- Team Lead: [Name] - [College]
+- Team Lead: [Your Name] - [Your College]
 - Member 2: [Name] - [College]
 - Member 3: [Name] - [College]
 
 ### Project Description
 
-Ant Trail Tracker is an unnecessarily serious image-analysis prototype that investigates suspicious ant activity from an uploaded photo. It detects visible ants, estimates a likely trail direction, and creates an official-looking Ant Traffic Report for a problem that was doing just fine without us.
+Ant Trail Tracker is a fun web application that investigates suspicious ant activity from an uploaded image. It analyses the image, identifies visible ants, estimates their likely trail direction, and presents the result as a dramatic **Ant Traffic Report**.
 
 ### The Problem (that doesn't exist)
 
-Ants walk around with zero public accountability. Nobody knows where they are going, whether they are late, or who approved their tiny highways. This has gone on for far too long.
+Ants walk around every day without telling anyone where they are going. Nobody knows whether they are late, following traffic rules, or creating unauthorized tiny highways.
+
+This level of ant-related uncertainty is unacceptable.
 
 ### The Solution (that nobody asked for)
 
-Upload a photo and let Ant Trail Tracker launch a full-scale investigation. It identifies ant-like objects, infers the probable direction of the trail, draws visual overlays, and reports critical findings such as **ANT ARMY SIZE**, **TRAFFIC JAM: CONFIRMED**, and **SUSPICIOUS INDIVIDUAL DETECTED**.
+Ant Trail Tracker allows users to upload an image containing ants and launches an unnecessarily serious investigation. The application analyses the image, estimates a possible ant trail, and gives amusing results such as:
+
+- **ANT ARMY SIZE**
+- **WHERE ARE THEY GOING?**
+- **TRAFFIC JAM: CONFIRMED**
+- **SUSPICIOUS INDIVIDUAL DETECTED**
 
 Please do not disturb the ants. They are probably late for something.
 
@@ -34,16 +39,25 @@ Please do not disturb the ants. They are probably late for something.
 
 For Software:
 
-- [Add languages used]
-- [Add frontend framework or HTML/CSS/JavaScript]
-- [Add backend/runtime]
-- [Add image-analysis model/library]
-- [Add tools used]
+- **Languages:** Python, HTML, CSS, JavaScript
+- **Frontend:** HTML for structure, CSS for styling, and JavaScript for interactions, image upload handling, and result visualisation
+- **Backend:** Flask web server written in Python
+- **Environment:** Python virtual environment (`venv`)
+- **Main Files:**
+  - `app.py` — Flask application server
+  - `index.html` — Main webpage and user interface
+  - `style.css` — Design, layout, animations, and funny visual styling
+  - `script.js` — Image upload flow, analysis behaviour, animations, and result display
+- **Database:** Not required
+- **Development Tools:** Python, Flask, Visual Studio Code, Git, GitHub
+- **Browser Requirement:** Google Chrome, Microsoft Edge, Firefox, or another modern browser
+- **Local Server:** Runs at `http://localhost:8000`
+- **Input Requirement:** A clear image containing visible ants
 
 For Hardware:
 
 - No dedicated hardware is required.
-- A computer and a suspicious ant photograph are enough.
+- A computer and an image containing suspicious ant activity are enough.
 
 ### Implementation
 
@@ -51,20 +65,19 @@ For Software:
 
 #### Installation
 
-```bash
-git clone <your-repository-url>
-cd <your-project-folder>
-
-<your install command>
+```powershell
+cd "C:\Users\annet\Documents\USELESS HACKTON"
+.\venv\Scripts\Activate.ps1
+pip install flask
 ```
 
 #### Run
 
-```bash
-<your start command>
+```powershell
+python app.py
 ```
 
-Open [http://localhost:8000](http://localhost:8000) to begin the investigation.
+Open [http://localhost:8000](http://localhost:8000) in a browser.
 
 ## Project Documentation
 
@@ -72,71 +85,75 @@ For Software:
 
 ### Screenshots
 
-![Screenshot 1](<add-home-screen-screenshot-path-here>)
+![Home Screen](screenshots/home-screen.png)
 
-*The Ant Trail Tracker home screen: a highly official portal for uploading evidence of suspicious ant activity.*
+*The home screen of Ant Trail Tracker, where users can begin a high-priority investigation into suspicious ant activity.*
 
-![Screenshot 2](<add-analysis-screen-screenshot-path-here>)
+![Analysis Screen](screenshots/analysis-screen.png)
 
-*The investigation in progress, with essential scientific procedures such as “Counting tiny legs…” and “Consulting senior ants…”.*
+*The analysis screen shows funny loading messages such as “Counting tiny legs...” and “Consulting senior ants...”.*
 
-![Screenshot 3](<add-results-screen-screenshot-path-here>)
+![Results Screen](screenshots/results-screen.png)
 
-*The completed Ant Traffic Report, showing detected ants, an inferred trail, direction, and traffic-level findings.*
+*The final Ant Traffic Report displays detected ants, estimated trail direction, traffic status, and highly unnecessary official findings.*
 
 ### Diagrams
 
 ```mermaid
 flowchart TD
-    A[📸 Upload suspicious ant photo] --> B[Image preprocessing]
-    B --> C[🐜 Detect visible ants]
-    C --> D[Analyse positions and trail pattern]
+    A[📸 User uploads an ant image] --> B[Flask server loads website]
+    B --> C[JavaScript handles image analysis flow]
+    C --> D[🐜 Identify ant activity and trail pattern]
     D --> E[🧭 Estimate likely direction]
-    E --> F[📊 Generate Ant Traffic Report]
-    F --> G[🚦 Declare a tiny highway situation]
+    E --> F[📊 Display Ant Traffic Report]
+    F --> G[🚦 Tiny highway investigation complete]
 ```
 
-*Workflow: the image is analysed for ant-like objects and trail patterns, then turned into a disproportionately official traffic report.*
+*Workflow: the user uploads an image, the application processes the ant activity, and the result is displayed as a playful traffic report.*
 
 For Hardware:
 
-No hardware build, circuit, schematic, or component photos apply to this software project.
+No circuits, schematics, or hardware components are required because Ant Trail Tracker is a software-only project.
 
 ### Project Demo
 
 #### Video
 
-[Add your demo video link here]
+Run the project locally using Flask and open:
 
-*The demo should show uploading an ant image, the funny analysis/loading experience, and the final trail and traffic report.*
+[http://localhost:8000](http://localhost:8000)
+
+*The demo shows an ant image being uploaded, humorous analysis messages appearing, and a final Ant Traffic Report being generated.*
 
 #### Additional Demos
 
-- [Add deployed project link here]
-- [Add GitHub repository link here]
-- [Add presentation link here]
+- **Local Demo:** `http://localhost:8000`
+- **Source Code:** [Add GitHub repository link here]
+- **Demo Video:** [Add YouTube, Google Drive, or Instagram link here]
 
 ## Limitations
 
-- **A single image cannot reliably determine true speed.** Video or multiple time-stamped frames are needed for meaningful speed estimates.
-- **Direction is an inference.** A photo may suggest a shared path but cannot prove where each ant came from or where it will go next.
-- Tiny, blurred, overlapping, hidden, or low-contrast ants can be difficult to detect.
-- Shadows, crumbs, and pixels with ambitions may be mistaken for ants.
-- The project analyses image patterns, not ant intentions, colony politics, or snack destinations.
+- **A single image cannot reliably determine true ant speed.** Speed requires video or several time-stamped frames.
+- **Trail direction is an estimate.** A still image cannot prove exactly where each ant came from or where it will go next.
+- Tiny, blurry, overlapping, hidden, or low-contrast ants may be difficult to identify.
+- Shadows, crumbs, and random dark pixels may occasionally look suspiciously ant-like.
+- The project cannot determine ant motives, colony politics, or snack destinations.
 
 ## Future Improvements
 
-- Add video and multi-frame tracking for real direction and speed estimates
-- Improve detection under different lighting conditions and ant sizes
-- Add an ant-congestion heatmap and live trail map
-- Add dramatic traffic-control audio
-- Add an “Interrogate the Ants” button
+- Add video and multi-frame analysis for more accurate movement and speed tracking
+- Improve ant detection in different lighting conditions and backgrounds
+- Track individual ants across video frames
+- Add a live ant-congestion heatmap
+- Add sound effects for critical ant traffic alerts
+- Add an **“Interrogate the Ants”** button
+- Add a leaderboard for the busiest tiny highways
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Your Name]: Built the Flask backend, project setup, and local server configuration.
+- [Name]: Developed the HTML, CSS, user interface, styling, and funny visual design.
+- [Name]: Built the JavaScript interactions, image-upload flow, analysis animations, and Ant Traffic Report display.
 
 ---
 
