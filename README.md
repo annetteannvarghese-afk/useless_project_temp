@@ -65,7 +65,7 @@ cd <your-project-folder>
 <your start command>
 ```
 
-Open [http://localhost:8000](http://localhost:8000) to begin the investigation.
+Open [useless-project-temp-rose.vercel.app].(appuseless-project-temp-rose.vercel.app) to begin the investigation.
 
 ## Project Documentation
 
