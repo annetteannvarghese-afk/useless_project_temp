@@ -52,18 +52,9 @@ For Software:
 
 #### Installation
 
-```bash
-git clone <your-repository-url>
-cd <your-project-folder>
-
-<your install command>
-```
-
-#### Run
-
-```bash
-<your start command>
-```
+git clone https://github.com/annetteannvarghese-afk/useless_project_temp.git
+cd useless_project_temp
+# open index.html directly in a browser
 
 Open [https://useless-project-temp-rose.vercel.app](https://useless-project-temp-rose.vercel.app/)] to begin the investigation.
 
