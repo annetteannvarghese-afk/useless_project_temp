@@ -39,7 +39,6 @@ For Software:
 - **Database:** [If used, add it here; otherwise write “Not required”]
 - **Tools:** [Example: Git, GitHub, VS Code]
 - **Browser Requirement:** A modern browser such as Google Chrome, Microsoft Edge, or Firefox
-- **Local Server:** The prototype runs locally at `http://localhost:8000`
 - **Input Requirement:** A clear image containing visible ants
 
 For Hardware:
@@ -66,7 +65,7 @@ cd <your-project-folder>
 <your start command>
 ```
 
-Open (useless-project-temp-rose.vercel.app) to begin the investigation.
+Open [https://useless-project-temp-rose.vercel.app](https://useless-project-temp-rose.vercel.app/)] to begin the investigation.
 
 ## Project Documentation
 
