@@ -3,9 +3,6 @@
 
  **Because ants have places to be.**
 
- ### 🚀 Live Demo
-
-[View the live website →](https://useless-project-temp-rose.vercel.app/)
 
 ## Basic Details
 
